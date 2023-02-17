@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+/* font-poppins */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans+Limbu&family=Noto+Serif+Khojki&family=Playfair+Display&family=Poppins:wght@100;400&family=Roboto:ital,wght@0,700;0,900;1,500&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* normalize */
+*, body{
+    padding: 0;
+    margin: 0;
+    list-style:none;    
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    all:unset;
+}
+
+a{ 
+	color:inherit; 
+	text-decoration:none; 
+} 
+
+/* fond */
+body{
+    background-color: var(--color-gray);
+}
+
+
+/* color library */
+:root{
+    --color-red : #CE0033;
+    --color-gray : #F0F0F0;
+    --color-white : #FFFFFF;
+
+}
+

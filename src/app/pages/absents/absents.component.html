@@ -1,13 +1,11 @@
 <main>
- 
-   
 
-    <form [formGroup]="absentForm">
+    <form [formGroup]="absentForm" class="left">
         <!-- Définition d'un formulaire pour ajouter un étudiant absent, avec la liaison vers le formulaire Angular absentForm -->
 
         <h1>Ajouter un.e absent.e</h1>
 
-        <select formControlName="student">
+        <select formControlName="student" class="drop-down">
             <!-- Définition d'une liste déroulante pour sélectionner un étudiant absent à ajouter, avec la liaison vers la propriété student de l'objet absentForm -->
 
 
@@ -32,7 +30,7 @@
     </form>
 
 
-    <div class="classroom">
+    <div class="classroom right">
 
         <div class="absents">
             <h2>Liste des absents</h2>

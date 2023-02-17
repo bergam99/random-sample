@@ -1,0 +1,25 @@
+.header{
+    height: 70px;
+    background-color: var(--color-red);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+ul{
+    display: flex;
+    margin-right: 122px;
+    gap: 51px;
+    color: var(--color-white);
+    font-weight:100;
+}
+
+.nav button:hover {
+    font-weight: bold;
+}
+
+.nav button.active {
+    font-weight: bold;
+}
+

@@ -1,0 +1,30 @@
+.launch{
+    display: flex;
+    justify-content: center;
+}
+
+.white-box-card{
+    display: flex;
+    justify-content: center;
+}
+
+.white-box{
+    height: 354px;
+    width: 896px;
+    background-color: var(--color-white);
+    margin-bottom: 164px;
+
+}
+button{
+    width: 453px;
+    height: 75px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    margin-top: 164px;
+    margin-bottom: 85px;
+}
+

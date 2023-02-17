@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  // toggle: boolean = true;
+
+  navIndex = 0;
+  onTabClick(index: any) {
+    this.navIndex = index;
+  }
+
 
 }

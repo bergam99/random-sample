@@ -1,0 +1,8 @@
+<div class="header">
+    <ul class="nav">
+        <li><button [ngClass]="{'active': navIndex === 0}" (click)="onTabClick(0)" routerLink="/">Tirage au sort</button></li>
+        <li><button [ngClass]="{'active': navIndex === 1}" (click)="onTabClick(1)" routerLink="/absent">Absent.e.s</button></li>
+    </ul>
+</div>
+
+
