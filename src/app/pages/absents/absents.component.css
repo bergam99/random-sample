@@ -37,8 +37,14 @@ button{
 }
 
 .drop-down{
-    background-color: white;
+    /* background-color: white; */
     width: 507px;
     height: 70px;
     border-radius: 10px;
+    box-shadow: none;
+
+}
+
+img{
+    width: 21px;
 }
