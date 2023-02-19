@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AbsentsComponent } from './pages/absents/absents.component';
+import { AbsentListService } from './services/absent-list/absent-list.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { AbsentsComponent } from './pages/absents/absents.component';
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers:[AbsentListService],
   bootstrap: [AppComponent]
 })
 

@@ -30,8 +30,8 @@ export class AbsentListService {
 
   }
 
-  // Méthode pour sauvegarder la liste d'étudiants absents en local
-  private saveStudent(student: Student) {
+  // Méthode pour sauvegarder
+  public saveStudent(student: Student) {
     localStorage.setItem('student', JSON.stringify(student));
     
   }

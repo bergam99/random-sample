@@ -13,8 +13,12 @@
     width: 896px;
     background-color: var(--color-white);
     margin-bottom: 164px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
+
 button{
     width: 453px;
     height: 75px;
